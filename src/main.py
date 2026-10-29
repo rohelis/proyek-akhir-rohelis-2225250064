@@ -118,7 +118,7 @@ def tampilkan_hasil(data_nilai, hasil):
 
 def main():
     """Menjalankan program utama."""
-    folder_proyek = Path(__file__).resolve().parent
+    folder_proyek = Path(__file__).resolve().parent.parent
     lokasi_file = folder_proyek / "data" / "nilai_contoh.txt"
 
     data_nilai = baca_nilai(lokasi_file)
